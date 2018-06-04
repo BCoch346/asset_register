@@ -21,7 +21,19 @@
 .App-intro {
   font-size: large;
 }
-
+.footer{
+  background: transparent;
+  padding-top:30px;
+  padding-bottom:0px;
+}
+.left-aside{
+  height:inherit;
+}
+.left-aside > .section{
+  padding-bottom: 0;
+  height:inherit;
+  overflow: auto;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

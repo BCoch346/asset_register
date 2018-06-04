@@ -14,23 +14,24 @@ class LeftAside extends Component {
     render(){
         return(
             <div className="left-aside is-secondary">
-                <section className="section">
-                <div class="tabs is-boxed is-fullwidth">
+                <div className="tabs is-boxed is-fullwidth">
                   <ul>
-                    <li class="is-active">
+                    <li className="is-active">
                       <a>
-                        <span class="icon is-small"><i class="fas fa-plus" aria-hidden="true"></i></span>
+                        <span className="icon is-small"><i className="fas fa-plus" aria-hidden="true"></i></span>
                         <span>Explore</span>
                       </a>
                     </li>
                     <li>
                       <a>
-                        <span class="icon is-small"><i class="fas fa-cog" aria-hidden="true"></i></span>
+                        <span className="icon is-small"><i className="fas fa-cog" aria-hidden="true"></i></span>
                         <span>Settings</span>
                       </a>
                     </li>
                 </ul>
                 </div>
+                <section className="section">
+                
                 <aside className="menu">
                     <p className="menu-label">
                         General
@@ -39,13 +40,13 @@ class LeftAside extends Component {
                         <li><a>Dashboard</a></li>
                         <li><a>Settings</a></li>
                     </ul>
-                    <p class="menu-label">
+                    <p className="menu-label">
                     Administration
                   </p>
-                  <ul class="menu-list">
+                  <ul className="menu-list">
                     <li><a>Team Settings</a></li>
                     <li>
-                      <a class="is-active">Manage Your Team</a>
+                      <a className="is-active">Manage Your Team</a>
                       <ul>
                         <li><a>Members</a></li>
                         <li><a>Plugins</a></li>
@@ -56,10 +57,10 @@ class LeftAside extends Component {
                     <li><a>Cloud Storage Environment Settings</a></li>
                     <li><a>Authentication</a></li>
                   </ul>
-                  <p class="menu-label">
+                  <p className="menu-label">
                     Transactions
                   </p>
-                  <ul class="menu-list">
+                  <ul className="menu-list">
                     <li><a>Payments</a></li>
                     <li><a>Transfers</a></li>
                     <li><a>Balance</a></li>
